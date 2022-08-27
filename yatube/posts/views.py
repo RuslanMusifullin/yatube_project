@@ -11,4 +11,4 @@ def index(request):
 
 # Страница со списком мороженого
 def group_posts(request):
-    return HttpResponse('Список мороженого')
+    return HttpResponse('Список постов')
